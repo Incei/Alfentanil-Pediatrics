@@ -5585,11 +5585,12 @@
           "Parameters": [
             {
               "Name": "Lipophilicity",
-              "Value": 1.75,
+              "Value": 1.8463211883,
               "Unit": "Log Units",
               "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Hanke 2018"
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
               }
             }
           ]
@@ -5604,53 +5605,9 @@
               "Name": "Fraction unbound (plasma, reference value)",
               "Value": 0.1,
               "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Hanke 2018"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Child-Pugh C",
-          "IsDefault": false,
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "Fraction unbound (plasma, reference value)",
-              "Value": 0.27027,
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Hanke 2018"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Child-Pugh A",
-          "IsDefault": false,
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "Fraction unbound (plasma, reference value)",
-              "Value": 0.15625,
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Hanke 2018"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Child-Pugh B",
-          "IsDefault": false,
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "Fraction unbound (plasma, reference value)",
-              "Value": 0.1656,
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Hanke 2018"
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
               }
             }
           ]
@@ -5682,15 +5639,33 @@
       ],
       "IntestinalPermeability": [
         {
-          "Name": "Fit",
+          "Name": "Optimized",
           "Parameters": [
             {
               "Name": "Specific intestinal permeability (transcellular)",
-              "Value": 3.48E-06,
+              "Value": 0.00057373577138,
               "Unit": "cm/min",
               "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Hanke 2018"
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
+              }
+            }
+          ]
+        }
+      ],
+      "Permeability": [
+        {
+          "Name": "Optimized",
+          "Parameters": [
+            {
+              "Name": "Permeability",
+              "Value": 0.0068752756625,
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
               }
             }
           ]
@@ -5715,11 +5690,12 @@
           "Parameters": [
             {
               "Name": "Intrinsic clearance",
-              "Value": 0.504,
+              "Value": 0.5272297928,
               "Unit": "l/min",
               "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Hanke 2018"
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 4' on 2019-09-06 11:28"
               }
             }
           ]
@@ -5751,7 +5727,7 @@
           "Unit": "g/mol",
           "ValueOrigin": {
             "Source": "Publication",
-            "Description": "Hanke 2018"
+            "Description": "Drugbank"
           }
         }
       ]
